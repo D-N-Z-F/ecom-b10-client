@@ -53,7 +53,7 @@ function DashboardList() {
             </Table.Body>
           </Table>
         ) : (
-          <h2>No Products To Show... (==")</h2>
+          <h2>No Products To Show...</h2>
         )}
       </div>
     </>
