@@ -187,7 +187,7 @@ function DashboardTable({ product }) {
                 className="py-5"
                 method="POST"
                 encType="multipart/form-data"
-                onSubmit={(e) => updateHandler(e)}
+                onSubmit={updateHandler}
               >
                 <div className="mb-4">
                   <Input
